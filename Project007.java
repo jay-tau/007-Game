@@ -14,11 +14,11 @@ public class Project007 {
 
 	public Project007() {
 		//Constructor
-		gameTitle();
-		ruleOutput();
 		blockP = blockC = chargeP = chargeC = 0;
 		lifeC = lifeP = maxLives;
 		choiceC = choiceP = "";
+		gameTitle();
+		ruleOutput();
 	}
 
 	public void gameEngine() throws Exception {
@@ -51,7 +51,7 @@ public class Project007 {
 		}
 		System.out.println("\n\n\n");
 		System.out.printf("\t\t\t\t\t\t\tLives Left (Player): %d\tLives left (Computer): %d\n\n", lifeP, lifeC);
-		TimeUnit.SECONDS.sleep(5); //Waits before ending the program
+		TimeUnit.SECONDS.sleep(2); //Waits before ending the program
 		System.exit(0);
 	}
 
